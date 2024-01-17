@@ -1,3 +1,4 @@
+//For the image slideshow
 let slideIndex = 0;
 showSlides();
 
@@ -13,5 +14,15 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
+
+//To put the current year in the footer section
 var currentYear = new Date().getFullYear();
 document.getElementById("year").textContent = currentYear;
+
+
+// Click event on image redirecting to the official website of Flipkart
+function image(img) {
+  var src = img.src;
+  window.open("https://www.flipkart.com/");
+}
+

@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Inter&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <div class="nav wh-bg">
             <div class="sec1">
-                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_plus-055f80.svg" alt="Flipkart Logo" width="160" height="40" title="Flipkart" class="image">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_plus-055f80.svg" alt="Flipkart Logo" width="160" height="40" title="Flipkart" class="image" onclick="image(this)" target="_blank">
                 <div class="search">
                     <i class="fa-solid fa-magnifying-glass fa-lg icon1"></i>
                     <input type="text" class="input" placeholder="Search for Products, Brands and More">
@@ -23,10 +26,23 @@
             <div class="sec2 wh-bg">
                 <div class="p1 wh-bg">
                     <i class="fa-regular fa-circle-user wh-bg icon space" style="font-size:larger;"></i>
-                    <span class="wh-bg">Login</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down wh-bg" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-                    </svg>
+                    <span class="login wh-bg">Login</span>
+                    <svg class="wh-bg down" width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_4974_75969)">
+                        <path d="M3 2L7 6L11 2" stroke="#111112" stroke-width="1.5" stroke-linecap="round"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_d_4974_75969" x="0.25" y="0.25" width="13.5" height="9.8125" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                        <feOffset dy="1"/>
+                        <feGaussianBlur stdDeviation="1"/>
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"/>
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4974_75969"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4974_75969" result="shape"/>
+                        </filter>
+                        </defs>
+                    </svg>   
                 </div>
 
                 <div class="p2 wh-bg">
@@ -41,7 +57,7 @@
                 </div>
                 
                 <div class="p4 wh-bg">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical wh-bg" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical dots wh-bg" viewBox="0 0 16 16">
                         <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
                     </svg>
                 </div>
@@ -117,6 +133,33 @@
         <div class="img-cont wh-bg">
             <img src="./img21.png" alt="Card offers image">
         </div>
+    </div>
+
+
+
+    <div class="paragraph">
+        <h4>Top Stories : Brand Directory</h4><br>
+        <p>
+            <span class="bold">MOST SEARCHED FOR ON FLIPKART:</span> iPhone 15 | iPhone 15 Plus I iPhone 15 Pro I iPhone 15 Pro Max I Vivo x 100 | Spoyl Store I SAMSUNG Flip5 1 SAMSUNG Fold5 1 Flipkart Axis Bank Super Elite Credit card 1 5G Mobile Phones I Primebook Laptops I Moto Edge 40 | Grievance Redressal I OPPO Ren07 Pro 5G I iPhone 13 | Help Centre I Track Orders I Manage Orders I Return Orders I Gift Cards Store I Flipkart Axis Bank Credit card I Pay Later
+        </p>
+        <p>
+            <span class="bold">MOBILES</span> iPhone 12 640B I iPhone 12 Pro 512GB I iPhone 12 1280B I Vivo Y15 1 SAMSUNG Galaxy S21 FE 5G I Infinix HOT 30i I Realme 10 Pro 5G I MOTOROLA 062 5G I Nothing Phone I REDMI Note 12 Pro 5G I Infinix SMART 7 | Vivo Y 12 | Oppo A12 1 Motorola 5g Phone I Realme 5g Smartphone I Apple 5g Phone I Iqoo 5g Phones I Oneplus 5g Phones I Vivo 5g Phones I Oppo 5g Smart Phones I Oppo F15 1 Oppo A31 1 Samsung A71 1 Samsung ASI I Samsung A31 1 iPhone 11 | iPhone 11 Pro 1 4G Mobile I Nokia Mobile I Samsung Mobile I iphone I Oppo Mobile I Vivo Mobile
+        </p>
+        <p>
+            <span class="bold">CAMERA</span> GoPro Action Camera I Nikon Camera I Canon Camera I Sony Camera I Canon DSLR I Nikon DSLR 
+        </p>    
+        <p>   
+            <span class="bold">LAPTOPS</span> Asus ROG Ally I MacBook Pro M2 1 Premium Laptop I ASUS ROG strix SCAR 16 (2023) core i9 13th Gen I ASUS ROG Zephyrus M16 (2023) core i9 13th Gen I ASUS Zenbook 14 OLED (2022) | Realme Book Prime Core i5 11th Gen I Microsoft Surface Go Pentium 128GB I Apple Laptops I Acer Laptops I Lenovo Laptops I Dell Laptops I Asus Laptops I HP Laptops I Gaming Laptops | 2 in 1 Laptops I Laptops I Dell latest laptops 2022 | HP latest laptops 2022 | Infinix INBook YI Plus I SAMSUNG Galaxy Book3 1 12th Gen Intel core Laptops
+        </p>
+        <p>
+            <span class="bold">TVS</span> Nokia TV I Panasonic TV I Thomson TV I Mi X Pro I Realme TV I Motorola TV I OnePlus TVs I LG TV I TV I Sony TV I Samsung TV I Android Television I Iffalcon TV I Mi TV
+        </p>
+        <p>
+            <span class="bold">LARGE APPLIANCES:</span> Television I Washing Machines I Refrigerators I Air Conditioners I Electric Cookers I Electric Jug(Heater) / Travel Kettles I Induction Cooktops I Inverters / stabilizer I Irons / Iron Box I Mixer Grinder Juicer I Wet Grinders I Chimneys I Microwave Ovens I Vacuum Cleaners I Water Purifier I Fan
+        </p>
+        <p>
+            <span class="bold">CLOTHING</span> Green bridal lehenga I Tops I Shoes I Sunglasses I Bridal Blouse I Half saree blouse designs I Designer blouses I Blouse designs I Shirts I Cotton saree blouse designs I Tshirts I Jeans I Sarees I Dresses I One pieces I Groom wedding sherwani I Designer Salwar Suits I Bra I Cotton simple blouse designs I Banarasi saree blouse designs I Stylish blouse astin design I Track Pant I Blouse neck designs I Men Kurtas I Party Dresses I Palazzo Suits I Anarkali I Gowns I Cut out dress I Salwar Suits I Kurtis I Designer Sarees I Leggings I Shorts I Georgette Sarees I Ethnic Wear I uppada pattu sarees I Blouse back design I Jodhpur pants
+        </p>
     </div>
 
 
@@ -202,7 +245,7 @@
                 <a>Help Center</a>
             </div>
             <div class="ele">
-                <p class="copyright f-bg">© Rupam Biswas 2024 - <span id="year" class="f-bg"></span></p>
+                <p class="copyright f-bg">© <a href="https://iamrupambiswas.github.io/Portfolio/" target="_blank">Rupam Biswas</a> 2024 - <span id="year" class="f-bg"></span></p>
             </div>  
         </div>
     </footer>
